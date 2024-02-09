@@ -10,6 +10,5 @@ beautifulsoup4
 wheel
 setuptools
 speedtest-cli
-httpx[http2]
 pyrogram
 user_agent
