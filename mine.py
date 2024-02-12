@@ -308,7 +308,7 @@ async def callbackQueries(client, query):
             my_keyboard = [
                     [InlineKeyboardButton('🔙', callback_data='backToMenu')],
                 ]
-            await bot.edit_message_text(chat_id, message_id, '<bارسل رابط الاستفتاء بالسطر الاول، بالسطر الثاني ارسل رقم الصف (تبدأ من 0):</b>', reply_markup=InlineKeyboardMarkup(my_keyboard))
+            await bot.edit_message_text(chat_id, message_id, '<bارسل رابط الاستفتاء بالسطر الاول ورقم الصف من 0 بالسطر الثاني:</b>', reply_markup=InlineKeyboardMarkup(my_keyboard))
 
         elif data == 'blockEval':
             step = 'blockEval'
